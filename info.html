@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+        <title>Taylor Russell</title>
+    </head>
+
+    <body>
+        <div >
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carouselExample">Карусель</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cardF">Фильмы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actorInfo">Краткая информация об актрисе</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-sn bg-light" >
+                <div class="container-fluid">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item" >
+                            <a class="nav-link" href="info.html">Основная информация</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="films.html">Список фильмов</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="ttaylor.png" class="d-block w-100" >
+            </div>
+            <div class="carousel-item">
+                <img src="taylormodel.png" class="d-block w-100" >
+            </div>
+            <div class="carousel-item">
+                <img src="тейлор.png" class="d-block w-100" >
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container mt-4">
+            <h2>Фильмы с участием актрисы</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="волны.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">волны</h5>
+                            <p class="card-text">Старшеклассника Тайлера из обеспеченной афроамериканской семьи, живущей на юге Флориды, в жизни волнуют только две вещи: спорт и его девушка Алексис. Парень ходит в перспективных борцах и большую часть времени посвящает тренировкам. Но вскоре мир Тайлера начинает рушиться — врач настаивает на срочной операции плеча, после которой о спорте придётся надолго забыть, а Алексис выясняет, что беременна.</p>
+                            <a href="https://www.kinopoisk.ru/film/1172136/" target="_blank" class="btn btn-burgundy">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Bones_and_All.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Целиком и полностью</h5>
+                            <p class="card-text">1980-е. 18-летняя Марен с отцом постоянно переезжают. Когда девушка пытается откусить палец новой подруге, и им снова приходится пуститься в бега, терпению отца приходит конец. Он уходит и оставляет дочери аудиокассету с объяснениями, немного денег и свидетельство о рождении. Марен отправляется на поиски матери, о которой у неё не осталось даже детских воспоминаний, и вскоре встречает незнакомца, такого же как она сама — не представляющего жизни без поедания человеческой плоти.</p>
+                            <a href="https://www.kinopoisk.ru/film/4422719/" target="_blank" class="btn btn-burgundy">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="дивандлямамы.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Диван для мамы</h5>
+                            <p class="card-text">В забытом богом мебельном магазине пожилая женщина усаживается на диван и отказывается уходить. Трое её взрослых детей, которые терпеть друг друга не могут, вынуждены объединиться, чтобы решить эту проблему. Их ждет самое страшное испытание в жизни — откровенный разговор с мамой.</p>
+                            <a href="https://www.kinopoisk.ru/film/5364707/" target="_blank" class="btn btn-burgundy">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <h2 id="cardF">Краткая информация об актрисе</h2>
+            <button class="btn btn-toggle" data-bs-toggle="collapse" data-bs-target="#actorInfo">Показать/Скрыть информацию</button>
+            <div id="actorInfo" class="collapse mt-2">
+                <p>Родилась 18 июля 1994 года в Ванкувере</p>
+                <p>Закончила сценические курсы</p>
+                <p>Свободна</p>
+            </div>
+        
+            <h2>Навигация по странице</h2>
+            <nav id="navbar-example2" class="nav flex-column">
+                <a class="nav-link active btn-toggle" href="#carouselExample">Карусель</a>
+                <a class="nav-link btn-toggle" href="#cardF">Фильмы</a>
+                <a class="nav-link btn-toggle" href="#actorInfo">Краткая информация об актрисе</a>
+            </nav>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

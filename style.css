@@ -1,0 +1,252 @@
+body
+{
+    background-color: rgb(238, 173, 152);
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f870ab; 
+    padding: 10px; 
+    text-align: right; 
+}
+
+.header a {
+    margin-left: 20px; 
+    text-decoration: none; 
+    color: #272626; 
+}
+
+h1, h2
+{
+    font-size: small;
+    color: #49162e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+p
+{
+    font-size: small;
+    color: #49162e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+}
+ul, ol
+{
+    background-color: #aa83bb;
+    font-size: small;
+    color: #49162e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+}
+a
+{ 
+    color: #49162e;
+}
+.content
+{
+    display: flex;
+    margin: 50px;
+}
+.content-left
+{
+    flex: 1;
+    background-color: rgb(238, 173, 152);
+    padding: 50px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.content-right
+{
+    flex: 1;
+    background-color: rgb(238, 173, 152);
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+}
+.content-right img
+{
+    max-width: 600;
+    max-height: 500;
+}
+.container {
+    display: flex; 
+
+    background-color: rgb(238, 173, 152); 
+    padding: 20px; 
+}
+
+.block {
+    width: 200px; 
+    height: 200px; 
+    background-color:rgb(130, 206, 206); 
+    
+}
+
+.centered-image {
+    width: 170px; 
+    height: 200px
+}
+
+.container-2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    background-color:rgb(238, 173, 152); 
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(90, 189, 222);
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    background-color: rgb(238, 173, 152); 
+}
+
+.block-3 {
+    width: 200px; 
+    height: 200px; 
+    background-color: rgb(11, 96, 176); 
+    margin: 10px; 
+}
+
+.container-4 {
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    margin: 50px auto; 
+    background-color: white;
+}
+
+.block-4 { 
+    position: absolute;  
+    width: 100px;  
+    height: 100px;  
+    border: 5px solid transparent;  
+} 
+
+.block-5 { 
+    top: 30px; 
+    left: 30px; 
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid red; 
+} 
+
+.block-6 { 
+    top: 100px; 
+    left: 100px; 
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid blue; 
+} 
+
+.block-7 { 
+    top: 170px; 
+    left: 170px; 
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid green; 
+} 
+.fixed-position {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btn-toggle {
+    background-color: #5e7d91; 
+    border-color: #5e7d91; 
+    color: #ffffff; 
+}
+.btn-toggle:hover {
+    background-color: #aa6bc5; 
+    border-color: #aa6bc5; 
+}
+.btn-burgundy {
+    background-color: #5e7d91; 
+    border-color: #5e7d91; 
+    color: #ffffff;
+}
+.btn-burgundy:hover {
+    background-color: #aa6bc5; 
+    border-color: #aa6bc5; 
+    color: #ffffff;
+}
+nav {
+    background: linear-gradient(90deg, #57c2da, #4ca5b8);
+    color: rgb(255, 223, 223);
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(252, 166, 166);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3b89ff;
+}
+
+#actorCarousel {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    height: auto px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e3c2c2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.collapse {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.table {
+    background-color:#e3c2c2;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
